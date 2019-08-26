@@ -1,0 +1,158 @@
+.jumbotron {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+85,0a0809+100 */
+    /* background: rgb(174, 188, 191); */
+    /* Old browsers */
+    /* background: -moz-linear-gradient(top, rgba(174, 188, 191, 1) 0%, rgba(110, 119, 116, 1) 50%, rgba(10, 14, 10, 1) 85%, rgba(10, 8, 9, 1) 100%); */
+    /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(top, rgba(174, 188, 191, 1) 0%, rgba(110, 119, 116, 1) 50%, rgba(10, 14, 10, 1) 85%, rgba(10, 8, 9, 1) 100%); */
+    /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(to bottom, rgba(174, 188, 191, 1) 0%, rgba(110, 119, 116, 1) 50%, rgba(10, 14, 10, 1) 85%, rgba(10, 8, 9, 1) 100%); */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809', GradientType=0); */
+    /* IE6-9 */
+    background-image: url("../images/basketballCourt.jpg");
+    color: white;
+    padding: 100px 25px;
+    height: 80vh;
+}
+
+html,
+body,
+div.wrap-frame {
+    height: 100%;
+}
+
+iframe {
+    display: block;
+}
+
+.transparent {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f6f6f6;
+}
+
+.navbar-light .navbar-brand {
+    color: #f6f6f6;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.card img {
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+.card:hover img {
+    opacity: 0.4;
+}
+
+.grey-bg {
+    background-color: #363636;
+    color: #f6f6f6;
+}
+
+.micro {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.3s;
+}
+
+.micro:hover {
+    box-shadow: 0 12px 16px 0 rgba(215, 215, 215, 0.24), 0 17px 50px 0 rgba(215, 215, 215, 0.19);
+}
+
+.micro:active {
+    background-color: #000000;
+    color: #f6f6f6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.main-img {
+    margin-top: 5%;
+}
+
+.spacer {
+    margin: 5rem;
+}
+
+.spacer2 {
+    margin-top: 35rem;
+}
+
+.round {
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 75vh;
+}
+
+.form-hold {
+    height: 100vh;
+    width: 100vw;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.form {
+    padding: 2rem 1rem;
+}
+
+.head {
+    margin-bottom: 1rem;
+}
+
+.signUp-btn {
+    position: relative;
+    left: 45%;
+}
+
+.list {
+    height: 75vh;
+}
+
+.list-content {
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 37vh;
+    padding: 5px;
+}
+
+.list-group {
+    height: 37vh;
+}
+
+.htp {
+    padding-bottom: 15px;
+}
+
+.map {
+    position: absolute;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 80%;
+    float: right;
+    margin-left: 10%;
+    margin-right: 5%;
+    overflow: scroll;
+}
+
+.champ {
+    color: white;
+    padding: 5px;
+}
+
+.text-black {
+    color: black;
+}
+
+.jumbo-height {
+    height: 75%;
+}
